@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { ScriptableContext } from "chart.js";
 import {
   Chart as ChartJS,
@@ -14,6 +14,7 @@ import {
 import { Line } from "react-chartjs-2";
 import { options } from "./graphOptions";
 import useFetchData from "./useFetctData";
+import styles from "./Graph.module.css";
 
 ChartJS.register(
   CategoryScale,
@@ -71,10 +72,10 @@ export function Graph() {
     ],
   };
   if (loading) {
-    return <p>loading Data</p>;
+    return <p className={styles.loading}>loading Graph...</p>;
   }
   if (error) {
-    return <p>Error fetching Data</p>;
+    return <p className={styles.error}>Error fetching Graph</p>;
   }
 
   return (

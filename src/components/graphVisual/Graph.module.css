@@ -1,0 +1,9 @@
+p.loading {
+  color: green;
+  font-weight: bold;
+}
+
+p.error {
+  color: red;
+  font-weight: bold;
+}

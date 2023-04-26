@@ -16,7 +16,11 @@ const SelectDaysBtn = ({ days }: labelTypes) => {
   }
   return (
     <>
-      <Chip className={styles.selectdayBtn} label={buttonLabel} />
+      <Chip
+        sx={{ border: "1px solid rgba(239, 241, 246, 1)", background: "#fff" }}
+        className={styles.selectdayBtn}
+        label={buttonLabel}
+      />
     </>
   );
 };

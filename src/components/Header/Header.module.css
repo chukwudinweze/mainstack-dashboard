@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Söhne";
   src: url("../../../public/Söhne-Font-Family-Collection/Söhne/TestSöhne-Halbfett.otf")
-    format(".otf");
+    format("opentype");
 }
 
 header {

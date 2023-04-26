@@ -1,13 +1,13 @@
 @font-face {
   font-family: "Söhne";
   src: url("../../../public/Söhne-Font-Family-Collection/Söhne/TestSöhne-Halbfett.otf")
-    format(".otf");
+    format("opentype");
 }
 
 @font-face {
   font-family: "Buch";
   src: url("../../../public/Söhne-Font-Family-Collection/Söhne/TestSöhne-Buch.otf")
-    format(".otf");
+    format("opentype");
 }
 
 .graph_container {
@@ -16,6 +16,7 @@
   border-radius: 0.625rem;
   margin-top: 1.25rem;
   padding-block: 1rem;
+  padding: 0.625rem;
 }
 
 .graph_info_container {
@@ -42,7 +43,7 @@
 }
 
 .graph_container h6 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   letter-spacing: -0.05rem;
   margin-block: 5px;

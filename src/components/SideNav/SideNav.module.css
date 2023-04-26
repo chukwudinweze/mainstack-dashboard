@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Kräftig";
+  src: url("../../../public/Söhne-Font-Family-Collection/Söhne/TestSöhne-Kräftig.otf")
+    format("opentype");
+}
+
+.user {
+  font-size: 0.938rem;
+  font-family: "Kräftig, sans-serif";
+}

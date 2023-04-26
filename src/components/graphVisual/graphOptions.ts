@@ -14,3 +14,17 @@ export const options = {
     },
   },
 };
+
+export const optionse = {
+  responsive: true,
+  plugins: {
+    legend: {
+      position: "right",
+    },
+  },
+  labels: {
+    usePointStyle: true,
+    pointStyle: "circle",
+    padding: 20,
+  },
+};
